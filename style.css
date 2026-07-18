@@ -1,0 +1,198 @@
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+.universal-container
+    {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        width: 100%;
+        max-height: 100%;
+        gap: 10px;
+        font-family: raleway;
+    }
+
+.main-universal1
+    {
+        max-height: 100vh;
+    }
+
+
+.image
+    {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+
+.main-container
+    {
+        display: flex;
+        max-height: 100vh;
+        width: 100%;
+        background: linear-gradient(to top,black,white);
+        border: 1px black solid;
+        border-radius: 17px;
+        box-shadow: 5px 0px 10px 0px rgb(58, 57, 57);
+    }
+
+.universal
+    {
+        
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background:linear-gradient(to right,cyan,coral);
+        border-radius: 10px;
+    }
+
+.card
+    {
+        border: 2px solid brown;
+        border-radius: 12px;
+        width: 200px;
+        height: 200px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        background: linear-gradient(to right,violet,rgb(130, 50, 50));
+        box-shadow: 4px 0px 10px 0px rgba(232, 230, 230,0.6);
+    }
+
+#library
+    {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+
+.remove
+    {
+        background-color: aqua;
+        border: none;
+        border-radius: 13px;
+        margin-left: 20px;
+        padding: 10px;
+        
+    }
+
+.remove:hover
+    {
+        box-shadow: 3px 3px 13px 3px white;
+    }
+.read-status
+    {
+        background-color: lightgreen;
+        border: none;
+        border-radius: 13px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+.read-status:hover
+    {
+        box-shadow: 3px 3px 13px 3px white;
+    }
+
+.booking
+    {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+#newBookCreation
+    {
+        border: none;
+        padding: 10px;
+        border-radius: 13px;
+        background: ghostwhite;
+        transition: all 0.4s ease-in-out;
+
+    }
+
+#bookCreation::backdrop
+    {
+        background-color: rgba(0,0,0,0.7);
+    }
+
+#newBookCreation:hover
+    {
+        background: linear-gradient(to right,red,green);
+        transform: translateY(-15px) scale(1.5);
+
+    }
+
+
+.form-container
+    {
+        width: 450px;
+        height: 450px;
+    }
+
+#bookCreation
+    {
+        border-radius: 18px;
+        border: 2px solid lightcyan;
+        box-shadow: 10px 10px 10px 0px rgb(78, 121, 121);
+        background: linear-gradient(to bottom,yellow,violet);
+    }
+
+#fillings
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+.child-container
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+.child-div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.child-div-button
+    {
+        display: flex;
+        
+    }
+
+.regulate
+    {
+        width: 200px;
+        border-radius: 13px;
+        border:1px solid orange;
+        padding: 10px;
+    }
+
+.division
+    {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+.create-button
+    {
+        width: 200px;
+        border-radius: 13px;
+        border: none;
+        padding: 10px; 
+        background: linear-gradient(to right,silver,lightblue);
+    }

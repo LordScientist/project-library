@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="universal-container">
+            <div class="main-universal1">
+                <img src="side.jpg" alt="anime guy" class="image">
+            </div>
+        
+            <div class="main-universal2">
+                <div class="universal">
+                <div>
+                    <h2>Welcome to the Library</h2>
+                </div>
+                <div class="main-container">
+                    <div class="divider">
+                        <div>
+                            <div id="library"></div>
+                        </div>
+                    
+                <div >
+                    <dialog id="bookCreation">
+                        <div class="form-container">
+                            <form id="fillings">
+                                <div class="child-container">
+                                    <div class="child-div">
+                                        <label for="title">Book Title</label>
+                                        <input type="text" id="title" name="title" class="regulate" required>
+                                    </div>
+                                
+                                     <div class="child-div">
+                                        <label for="author">Author</label>
+                                        <input type="text" id="author" name="author" class="regulate" required>
+                                     </div>
+                                 
+                                    <div class="child-div">
+                                         <label for="pages">Number of pages</label>
+                                        <input type="number" id="pages" name="pages" class="regulate" required>
+                                    </div>
+                                
+                                    <div class="division">
+                                        <div>
+                                            <label for="readTrue">Read</label>
+                                            <input type="radio" name="readStatus" id="readTrue" required>
+                                        </div>
+                                    
+                                        <div>
+                                            <label for="readFalse">Unread</label>
+                                            <input type="radio" id="readFalse" name="readStatus" required>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="child-div">
+                                        <button type="submit" class="create-button">Create book</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </dialog>
+                
+                    <div class="booking">
+                        <button id="newBookCreation">Add a book</button>
+                    </div>
+                
+                </div>
+            </div>
+                </div>
+                </div>
+                 </div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
